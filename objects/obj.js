@@ -65,6 +65,7 @@ let b = new B;
 console.log(a == b);
 */
 
+
 class Accumulator {
 
     constructor(startingValue) {
@@ -83,3 +84,6 @@ let acc = new Accumulator("22");
 acc.read();
 
 console.log(acc.value);
+
+
+
